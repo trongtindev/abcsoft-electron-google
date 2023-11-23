@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { GooglettsService } from './googletts.service';
-import { FfmpegModule } from '../ffmpeg/ffmpeg.module';
+import { FfmpegModule } from '../../../ffmpeg/src/ffmpeg.module';
 
 @Module({
 	imports: [FfmpegModule],

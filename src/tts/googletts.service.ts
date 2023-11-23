@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { ApiService } from '../../modules/api/api.service';
+import { ApiService } from '@/modules/api/api.service';
 import logger from 'electron-log';
-import { FfmpegService } from '../ffmpeg/ffmpeg.service';
+import { FfmpegService } from '../../../ffmpeg/src/ffmpeg.service';
 import fs from 'fs';
 import path from 'path';
 import * as uuid from 'uuid';
